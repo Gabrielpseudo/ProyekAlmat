@@ -1,0 +1,29 @@
+import Gabriel087 
+
+A = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+B = [
+    [9, 8, 7],
+    [6, 5, 4],
+    [3, 2, 1]
+]
+
+Perkalian = Gabriel087.perkalianmatriks(A, B)
+print("Hasil Perkalian Matriks A dan B:")
+for row in Perkalian:
+    print(row)
+
+penjumlahan = Gabriel087.penjumlahanmatriks(A, B)
+print("\nHasil Penjumlahan Matriks A dan B:")
+for row in penjumlahan:
+    print(row)
+
+Transpos = Gabriel087.transposmatriks(A)
+print("\nHasil Transpos Matriks A:")
+for row in Transpos:
+    print(row)
+
